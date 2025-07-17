@@ -65,6 +65,7 @@ X1 = ModCurveFamily_base(
     cusps=r"$\nu_\infty = \begin{cases} 1, & \text{ if } N =1, \\ 2, & \text{ if } N = 2, \\ 3, & \text{ if } N = 4, \\ \frac{1}{2} \cdot \sum\limits_{d|N,d>0} \varphi(d)\varphi\left(\frac{N}{d}\right), & \text{ otherwise.} \end{cases}$",
     knowl_ID="modcurve.x1",
     genus_formula=r"$$g = 1 + \frac{i}{12} - \frac{\nu_2}{4} - \frac{\nu_3}{3} - \frac{\nu_\infty}{2}$$",
+    notation=r'''<ul> <li>$\varphi(d)$ is the Euler totient function </li></ul>''',
 )
 
 X = ModCurveFamily_base(
